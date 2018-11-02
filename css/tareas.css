@@ -1,0 +1,76 @@
+.primero{
+	background: tomato;
+	padding: 10px;
+	height: 300px;
+}
+.nombre_tarea, .btn-agregar{
+	display: block;
+	margin: auto;
+}
+.nombre_tarea{
+	margin-top: 100px;
+	margin-bottom: 30px;
+	width: 70%;
+	height: 30px;
+	padding: 10px;	
+}
+.btn-agregar{
+	width: 30%;
+	height: 50px;
+	padding: 5px;
+	background: tomato;
+	border: .5px solid black;
+	color: white;
+	font-size: 20px;
+	box-shadow: 0px 3px 5px black;
+}
+.btn-agregar:hover{
+	box-shadow: 0px 2px 2px black;
+	cursor: pointer;
+}
+.btn-agregar:active{
+	box-shadow: none;
+}
+.lista-tareas{
+	width: 90%;
+}
+.lista{
+	margin-left:17%;
+	list-style-type: none;
+}
+.tarea{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+	display: flex;
+}
+.tarea:hover{
+	background: #FFFAFA;
+}
+.entra{
+	width: 2em;
+	height: 2em;
+}
+.titulo, .complete{
+	font-size: 30px;
+}
+.complete{
+	margin-left: auto;
+	background: tomato;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+.complete:hover{
+	opacity: .5;
+	cursor: pointer;
+}
+.completo{
+	order: 10;
+	opacity: .5;
+}
+.completo .titulo{
+	text-decoration: line-through;
+	font-style: italic;
+}
